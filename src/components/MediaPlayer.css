@@ -1,8 +1,30 @@
 .currentSong {
-    min-width: 300px;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 574px;
+    height: 80%;
+}
+
+.currentSong img {
+    height: 300px;
+}
+
+.addInfoLike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.songInfo p {
+    margin: 0px;
+}
+
+.playControls {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }

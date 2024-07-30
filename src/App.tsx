@@ -8,8 +8,10 @@ import "./App.css"
 export function App() {
   return (
     <>
-      <ListItems />
-      <MediaPlayer song={mediaCurrentSong}/>
+      <div className="AppWrapper">
+        <ListItems />
+        <MediaPlayer song={mediaCurrentSong}/>
+      </div>
     </>
   );
 }

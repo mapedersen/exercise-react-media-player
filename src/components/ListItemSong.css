@@ -9,9 +9,22 @@
     border-bottom: 1px solid black;
 }
 
+.listItemSong:last-child {
+    border-bottom: none;
+}
+
+.listItemSong img {
+    height: 50px;
+}
+
 .mediaInfo {
     display: flex;
     gap: 10px;
+}
+
+.songArtist {
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .mediaInfoText {
