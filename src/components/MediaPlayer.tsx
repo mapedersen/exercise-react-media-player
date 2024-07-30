@@ -10,14 +10,13 @@ interface ICurrentSongProps {
 export function MediaPlayer({ song }: ICurrentSongProps): ReactElement {
     return (
         <div className="currentSong">
-            {console.log(song.image)}
             <img src={song.image} alt={song.title} ></img>
 
             <div className="addInfoLike">
                 <span className="material-symbols-outlined"> Add </span>
-                <div className="MediaInfoText">
+                <div className="MediaInfoText text-center">
+                    <p className="songArtist">{song.artist}</p>
                     <p>{song.title}</p>
-                    <p>{song.artist}</p>
                 </div>
                 <span className="material-symbols-outlined"> Favorite </span>
             </div>

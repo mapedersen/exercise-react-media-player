@@ -1,5 +1,5 @@
 .listItems {
-    border: 1px solid #ccc;
+    background: linear-gradient(to bottom right, #f9f9f9, #eeeeee); /* Very light grey gradient */
     border-radius: 5px;
 }
 

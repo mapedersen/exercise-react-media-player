@@ -13,8 +13,8 @@ export function ListItemSong({ song }: IListItemSongProps): ReactElement {
             <div className="mediaInfo">
                 <img src={song.image} alt={song.title} ></img>
                 <div className="MediaInfoText">
-                    <p className="songArtist">{song.artist}</p>
-                    <p className="songTitle">{song.title}</p>
+                    <p className="artistName">{song.artist}</p>
+                    <p className="">{song.title}</p>
                 </div>
             </div>
             <span className="material-symbols-outlined"> play_arrow </span>

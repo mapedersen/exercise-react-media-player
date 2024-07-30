@@ -53,7 +53,7 @@ export const mediaList: IMedia[] = [
 
 export const mediaCurrentSong = {
     image: "https://www.sleek-mag.com/wp-content/uploads/2016/08/AlbumCovers_ThinkTank.jpg",
-    title: "A Rocket to the Moon",
-    artist: "Like We Used to",
+    title: "Like We Used to",
+    artist: "A Rocket to the Moon",
     playBackTime: "3:42"
 }
