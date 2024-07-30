@@ -1,0 +1,8 @@
+.listItems {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.listItems:last-child {
+    border-bottom: none;
+}

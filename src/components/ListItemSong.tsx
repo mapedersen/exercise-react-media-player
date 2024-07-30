@@ -10,10 +10,12 @@ interface IListItemSongProps {
 export function ListItemSong({ song }: IListItemSongProps): ReactElement {
     return (
         <div className="listItemSong">
-            <img src="{song.image}" alt="{song.title}" ></img>
             <div className="mediaInfo">
-                <p>{song.artist}</p>
-                <p>{song.title}</p>
+                <img src="{song.image}" alt="{song.title}" ></img>
+                <div className="MediaInfoText">
+                    <p>{song.artist}</p>
+                    <p>{song.title}</p>
+                </div>
             </div>
             <span className="material-symbols-outlined"> play_arrow </span>
         </div>
