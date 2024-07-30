@@ -1,7 +1,11 @@
+import { ListItems } from "./components/ListItems";
+
+import "./App.css"
+
 export function App() {
   return (
     <>
-      <h1>This is the App component</h1>
+      <ListItems />
     </>
   );
 }
