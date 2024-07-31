@@ -38,3 +38,24 @@
     justify-content: space-between;
     width: 80%;
 }
+
+.timeline {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeline-bar {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 5px;
+    background: black;
+}
+
+.timeline-bar-inner {
+    width: 25%;
+    background-color: rgb(219, 29, 29);
+    height: 5px;
+}

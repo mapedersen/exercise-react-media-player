@@ -35,3 +35,8 @@
 .mediaInfo p {
     margin: 0;
 }
+
+.artistName {
+    font-weight: bold;
+    font-size: 14px;
+}

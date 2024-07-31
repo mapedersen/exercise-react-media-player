@@ -21,9 +21,16 @@ export function MediaPlayer({ song }: ICurrentSongProps): ReactElement {
                 <span className="material-symbols-outlined"> Favorite </span>
             </div>
 
+            {/* Create component  */}
             <div className="timeline">
+                <span>0:24</span>
+                <div className="timeline-bar">
+                    <div className="timeline-bar-inner"></div>
+                </div>
+                <span>3:35</span>
             </div>
 
+            {/* Create component  */}
             <div className="playControls">
                 <span className="material-symbols-outlined"> Repeat </span>
                 <span className="material-symbols-outlined"> skip_previous </span>

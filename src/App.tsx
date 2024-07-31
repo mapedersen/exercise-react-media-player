@@ -7,11 +7,9 @@ import "./App.css"
 
 export function App() {
   return (
-    <>
       <div className="AppWrapper">
         <ListItems />
         <MediaPlayer song={mediaCurrentSong}/>
       </div>
-    </>
   );
 }
